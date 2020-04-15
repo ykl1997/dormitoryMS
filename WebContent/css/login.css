@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ h1{
+
+	margin:30px 30%;
+	color:#2e15d1e6;
+	text-shadow:2px 2px 2px #c91acfe6;
+	font-size:40px;
+}
+
+body {
+	background-color: #fff;
+	background:
+		url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585066393542&di=e291127b3470e23252e559325866d670&imgtype=0&src=http%3A%2F%2Fp3.ifengimg.com%2Fa%2F2017%2F0628%2Fd92aa2aecaa7919size536_w1000_h520.jpg)
+		no-repeat center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#float {
+	display: block;
+	position: absolute;
+	top: 250px;
+	width: 200px;
+	height: 200px;
+	background: url(../imgs/kls.png) no-repeat center;
+	background-size: 100% 100%;
+	z-index: -1;
+}
+
+form {
+	width: 300px;
+	height: 400px;
+	box-shadow: 10px 20px 10px 1px rgba(0, 0, 0, 0.733);
+	border: none;
+	text-align: center;
+	margin: 0 30%;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 50px;
+	border-radius: 2px;
+}
+select{
+	width: 220px;
+	height: 40px;
+	color: black;	
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px;
+	font-size: 15px;
+	border-radius: 2px;
+	margin-top: 40px;	
+}
+
+div>div{
+	margin-bottom:-10px;
+	margin-left:-150px;
+	
+}
+div{
+	color:red;
+	font-size:12px;
+	margin-bottom: 20px;
+}
+
+input {
+	width: 220px;
+	height: 40px;
+	color: black;	
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px;
+	font-size: 15px;
+	border-radius: 2px;
+}
+
+input::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.8);
+	margin-left: 10px;
+}
+
+img {
+	width: 100px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+#input1 {
+	margin-top: 20px;
+}
+
+#input3 {
+	margin: 0;
+	float: left;
+	width: 100px;
+	margin-left: 40px;
+	margin-right: -20px;
+}
+
+#login {
+	background-image: linear-gradient(158deg, #95ca47, #4dc891);
+	margin-top: 10px;
+	color: #fff;
+	box-shadow: 0 2px 6px 0 rgba(104, 200, 116, .3);
+	font-size: 18px;
+}

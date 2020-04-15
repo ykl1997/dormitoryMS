@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+}
+
+table {
+	margin: 70px auto;
+	border-collapse: collapse;
+	color: white;
+	font-family: STHeiti;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+table td {
+	text-align: center;
+	padding: 2px 50px;
+	border-left: 2px black solid;
+}
+
+tr {
+	background-color: #142C38;
+	margin: 0;
+}
+
+.top {
+	background-color: #2787D3;
+}
+form{
+    width: 100%;
+    text-align: center;
+    background-color: cornsilk;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 0;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 10px 20px;
+    border-radius: 3px;
+    border:1px  cadetblue solid;
+}
+.button{
+    background-color: cadetblue;
+    border:1px  cadetblue solid;
+}

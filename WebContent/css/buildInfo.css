@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+    width: 1080px;
+}
+
+table{    
+    margin:0px 0;
+    border-collapse: collapse;
+    color: white;
+    font-family: STHeiti;
+    float: right;
+    border-right:2px rgb(18, 228, 193) solid;
+}
+table td{    
+    text-align: center;  
+    padding:2px 56px; 
+    border-left:2px rgb(18, 228, 193) solid; 
+    z-index: 100; 
+}
+tr{
+    background-color:#142C38 ;   
+    margin: 0; 
+     
+}
+.top
+{   
+    background-color: #2787D3;
+}
+img{
+    width: 465px;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: chocolate;
+}
