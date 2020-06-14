@@ -32,7 +32,7 @@ public class AdminLoServ extends HttpServlet {
 			} else {
 				request.getSession().setAttribute("name", name);
 				request.getSession().setAttribute("table", "admin_login");
-				request.getSession().setAttribute("loginstate", "logined");
+				request.getSession().setAttribute("loginstate", "admin_logined");
 				response.sendRedirect(request.getContextPath() + "/adminMain.jsp");
 			}
 			s.close();

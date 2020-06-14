@@ -38,7 +38,7 @@ public class StudentLoServ extends HttpServlet {
 			} else {
 				request.getSession().setAttribute("name", name);
 				request.getSession().setAttribute("table", "student_login");
-				request.getSession().setAttribute("loginstate", "logined");
+				request.getSession().setAttribute("loginstate", "student_logined");
 				response.sendRedirect(request.getContextPath() + "/studentMain.jsp");
 			}
 			s.close();

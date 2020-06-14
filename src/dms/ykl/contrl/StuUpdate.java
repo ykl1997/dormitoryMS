@@ -35,9 +35,9 @@ public class StuUpdate extends HttpServlet {
 		try {
 			studentDao.modifyStudentBySno(student);
 			if (request.getHeader("Referer").contains("studentupdate.jsp")) // 判断请求来自哪个页面对应返回
-				response.sendRedirect(request.getContextPath() + "/studentupdate.jsp?modifysuccess=yes");
+				response.sendRedirect(request.getContextPath() + "/studentupdate.jsp?modifysuccess=yes");// 学生转发到原页面
 			else {
-				response.sendRedirect(request.getContextPath() + "/studentInfo.jsp?modifysuccess=yes");
+				response.sendRedirect(request.getContextPath() + "/studentInfo.jsp?modifysuccess=yes");// 管理员转发到学生列表
 			}
 
 		} catch (SQLException e) {

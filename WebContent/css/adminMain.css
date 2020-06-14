@@ -1,99 +1,148 @@
-*{
-	 margin: 0;
-}
-body{
-    background: #142C38;    
-}
-h1{
-    display: block;
-    width: 100%;
-    height: 120px;
-    background-color: #31414E;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: STXingkai;
-    letter-spacing: 20px;
-    font-size: 50px;
-    font-weight: lighter;
-    position: relative;
-}
-h1 img{
-    display: flex;   
-    margin:auto 120px;
-    line-height: 100px; 
-}
-h1 span{
-	
-    font-size: 15px;
-    font-family: "Microsoft YaHei";
-    letter-spacing: normal;
-    position: absolute;
-    right: 80px;
-    bottom: 0;
-
-}
-ul{
-    margin-top: 30px;
-     width: 200px;
-     margin-left:100px;
-    
-}
-ul li{   
-    list-style: none;
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
-    text-align: center;
-    margin: 0 0;
-    line-height: 50px;
-    background-color: #31414E;
-    font-family: STHeiti;
-    color: white;
-    cursor: pointer;
-}
-a{ 
-    display:inline-block;
-    color: white;
-    background-color: #31414E;
-    text-decoration: none;
-}
-.opt{
-    background-color: #164563;
-    color: black;
-}
-a:hover{
-    color:rgba(0, 0, 0, 0.8);
-}
-#main{
-    position: absolute;
-    top: 150px;
-    left: 350px;
-    width: 1100px;
-    height: 500px;
-    background-color: #fff;
-    color: cornsilk;
-    border-radius: 2px;
-    border-left:10px #31414E solid ;  
-    border-right:10px #31414E solid ; 
-    border-bottom:10px #31414E solid ;   
-}
-#main div h3{ 
-  width: 1100px;
-  height: 30px;
-  background-color: #31414E;
-  line-height:30px;
-  font-size:15px;    
-} 
-
-body #main>div{	
-    width: 1100px;
-    height: 500px;
-    background-color: #142C38;
-    display: none;
-}
-body #main #show{	
-    display: block;
+* {
+	margin: 0;
 }
 
+body {
+	background: #142C38;
+}
+
+body .ui {
+	position: absolute;
+	left: -30px;
+	top: 200px;
+}
+
+body .ui i{
+	font-size:30px;
+	color:#31414E;
+	position: relative;
+	left:20px;
+	top:-100px;
+}
+body .ui .color {
+	width: 15px;
+	height: 15px;
+	margin: 20px auto;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+body .ui #blue {
+	background-color: #2376b7;
+	border: 1px black solid;
+}
+
+body .ui #red {
+	background-color: #f03752;
+	border: 1px black solid;
+}
+
+body .ui #black {
+	background-color: #142C38;
+	border: 1px black solid;
+}
+
+body .ui #white {
+	background-color: #ffa60f;
+	border: 1px black solid;
+}
+
+h1 {
+	display: block;
+	width: 100%;
+	height: 120px;
+	background-color: #31414E;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: STXingkai;
+	letter-spacing: 20px;
+	font-size: 50px;
+	font-weight: lighter;
+	position: relative;
+}
+
+h1 img {
+	display: flex;
+	margin: auto 120px;
+	line-height: 100px;
+}
+
+h1 span {
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+	letter-spacing: normal;
+	position: absolute;
+	right: 80px;
+	bottom: 0;
+}
+
+ul {
+	margin-top: 30px;
+	width: 200px;
+	margin-left: 100px;
+}
+
+ul li {
+	list-style: none;
+	width: 200px;
+	height: 50px;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0;
+	line-height: 50px;
+	background-color: #31414E;
+	font-family: STHeiti;
+	color: white;
+	cursor: pointer;
+}
+
+a {
+	display: inline-block;
+	color: white;
+	background-color: #31414E;
+	text-decoration: none;
+}
+
+.opt {
+	background-color: #164563;
+	color: black;
+}
+
+a:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#main {
+	position: absolute;
+	top: 150px;
+	left: 350px;
+	width: 1100px;
+	height: 500px;
+	background-color: #fff;
+	color: cornsilk;
+	border-radius: 2px;
+	border-left: 10px #31414E solid;
+	border-right: 10px #31414E solid;
+	border-bottom: 10px #31414E solid;
+}
+
+#main div h3 {
+	width: 1100px;
+	height: 30px;
+	background-color: #31414E;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+body #main>div {
+	width: 1100px;
+	height: 500px;
+	background-color: #142C38;
+	display: none;
+}
+
+body #main #show {
+	display: block;
+}

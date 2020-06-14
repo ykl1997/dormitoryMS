@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%
 	String state = (String) request.getSession().getAttribute("loginstate");
-	if (state != "logined") {
+	if (state != "student_logined") {
 		response.sendRedirect((request.getContextPath() + "/login.jsp"));
 	}
 %>
@@ -13,13 +13,25 @@
 <title>主页</title>
 <link rel="stylesheet" href="./css/adminMain.css">
 <link rel="icon" href="./imgs/dormitory.png"  type="image/x-icon">  
+ <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_1867563_3ar6vrncd0o.css">
 <script src="./script/jquery-1.11.3.js"></script>
 </head>
 <body>
 	<h1>
-		<img src="https://www.axhu.edu.cn/images/logo.png" alt="">宿舍管理系统
+		<img src="https://www.axhu.edu.cn/images/logo.png" id="img">宿舍管理系统
 		<span> 学生: ${name}</span>
 	</h1>
+	<div class="ui">
+    	<div class="color" id="blue">
+    	</div>
+    	<div class="color" id="red">
+    	</div>
+    	<div class="color" id="black">
+    	</div>
+    	<div class="color" id="white">
+    	</div>    	
+    	<i class="iconfont icon-youjiantou"></i>
+    </div>
 	<ul id="menu">
 		<li class="opt">个人信息修改</li>
 		<li>忘带钥匙咯</li>
