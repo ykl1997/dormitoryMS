@@ -56,6 +56,7 @@ rs.next();
     <input type="submit" value="提交" class="button">
 </form>
 </body>
+<%rs.close(); %>
 <script type="text/javascript">
 var success="<%=request.getParameter("success")%>";
 if(success==="yes"){
